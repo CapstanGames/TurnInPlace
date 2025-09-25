@@ -82,6 +82,9 @@ There is too much in the anim graph that goes into building the system Lyra uses
 
 # Changelog
 
+### 1.5.2
+* Fixed bug where recovery was occurring for a frame before entering into turn state
+
 ### 1.5.1
 * Change from `float` to `double` for `FTurnInPlaceGraphNodeData::AnimStateTime` due to 5.6 deprecation
 
