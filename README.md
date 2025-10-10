@@ -82,6 +82,9 @@ There is too much in the anim graph that goes into building the system Lyra uses
 
 # Changelog
 
+### 1.5.3
+* Fix meta specifier for enum values for MontageOverrides
+
 ### 1.5.2
 * Fixed bug where recovery was occurring for a frame before entering into turn state
 

@@ -242,7 +242,7 @@ struct ACTORTURNINPLACE_API FTurnInPlaceMontageHandling
 	{}
 
 	/** Assign specific overrides to specific montages */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Turn, meta=(AllowedValues="ForceEnabled,ForceLocked,ForcePaused"))
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Turn, meta=(InvalidEnumValues="Default"))
 	TMap<TObjectPtr<const UAnimMontage>, ETurnInPlaceOverride> MontageOverrides;
 	
 	/** Montages with additive tracks will not be considered to be Playing @see UAnimInstance::IsAnyMontagePlaying() */
